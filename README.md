@@ -1,12 +1,12 @@
-# 绍兴智慧文创旅游大数据分析<img src="https://github.com/LKCN/-/tree/master/img/logo.png" style="zoom:50%;" />
+# 绍兴智慧文创旅游大数据分析<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/logo.png" style="zoom:50%;" />
 
-## 浙江工业大学之江学院<img src="https://github.com/LKCN/-/tree/master/img/xiaohui.png" style="zoom:50%;" />
+## 浙江工业大学之江学院<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/xiaohui.png" style="zoom:50%;" />
 
 ### 一、项目简介
 
 旅游业在绍兴2018年GDP中占比22%，是绍兴的支柱产业之一，却面临着“旅游景点人满为患体验差、千篇一律无差异回头客少”等痛点。本项目利用了绍兴市公共数据开放平台中的景区、交通和天气等数据集，研发了基于神经网络的预测算法，提供了对不同人群的旅游建议、景点的差异化建议等服务，帮助绍兴从传统旅游发展成为智慧文创旅游。
 
-<img src="https://github.com/LKCN/-/tree/master/img/bg.png" style="zoom:50%;"/>
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/bg.png" style="zoom:50%;"/>
 
 ### 二、绍兴传统旅游业的痛点
 
@@ -14,7 +14,7 @@
 
 - 千篇一律无差异回头客少
 
-  <img src="https://github.com/LKCN/-/tree/master/img/td.png" style="zoom:50%;"/>
+ <img src="https://github.com/LKCN/TouristEstimation/tree/master/img/td.png" style="zoom:50%;"/>
 
 ### 三、本项目创新点与目标
 
@@ -56,30 +56,26 @@
 
 ### 五、算法简介
 
-（1）回归预测
+神经网络
 
-按8：1：1分原始数据集为训练集、测试集和验证集；建立回归模型，通过随机梯度下降法优化数据，
+PyTorch框架，LSTM（长短时记忆网络）作为Backbone；数据按9：1分原始数据集为训练集、测试集；损失函数使用MSEloss（均方误差）；优化函数使用Adam优化算法，公式如下：
 
-<img src="https://github.com/LKCN/-/tree/master/img/tdxj.png" style="zoom:33%;" />
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/adam.png" style="zoom:50%;" />
 
-损失函数使用MSEloss（均方误差）。
+神经网络结构图如下：
 
-（2）神经网络模型
-
-神经网络建模损失函数使用MSEloss，激活函数为ReLu，神经网络结构图如下。
-
-<img src="https://github.com/LKCN/-/tree/master/img/jgt.png" style="zoom:50%;" />
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/LSTM.png" style="zoom:50%;" />
 
 ### 六、训练及测试结果
 
 范例：
 
-<img src="https://github.com/LKCN/-/tree/master/img/train3.png" style="zoom:50%;" />
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/test.png" style="zoom:50%;" />
 
-<img src="https://github.com/LKCN/-/tree/master/img/result3.png" style="zoom:50%;" />
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/result.png" style="zoom:50%;" />
 
 
 
 #### 团队成员：张智、刘子瑜、王剑锋
 
-##### 联系方式：![](https://github.com/LKCN/-/tree/master/img/lianxi.png)
+##### 联系方式：![](https://github.com/LKCN/TouristEstimation/tree/master/img/lianxi.png)
