@@ -14,7 +14,7 @@
 
 - 千篇一律无差异回头客少
 
- <img src="https://github.com/LKCN/TouristEstimation/tree/master/img/td.png" style="zoom:50%;"/>
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/td.png" style="zoom:50%;"/>
 
 ### 三、本项目创新点与目标
 
@@ -25,8 +25,6 @@
 - 本项目目标
   **提升游客旅游体验舒适度**
   **促进绍兴旅游业创收增长**
-
-  
 
 ### 四、数据集信息
 
@@ -74,9 +72,9 @@ PyTorch框架，LSTM（长短时记忆网络）作为Backbone；数据按9：1�
 
 <img src="https://github.com/LKCN/TouristEstimation/tree/master/img/result.png" style="zoom:50%;" />
 
-
-
 #### 团队成员：张智、刘子瑜、王剑锋
 
 ##### 联系方式：
-(https://github.com/LKCN/TouristEstimation/tree/master/img/lianxi.png)
+
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/lianxi.png" style="zoom:50%;" />
+
