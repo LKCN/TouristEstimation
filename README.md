@@ -64,7 +64,7 @@ PyTorch框架，LSTM（长短时记忆网络）作为Backbone；数据按9：1�
 
 神经网络结构图如下：
 
-<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/LSTM.png" style="zoom:50%;" />
+<img src="https://github.com/LKCN/TouristEstimation/tree/master/img/LSTM.png" style="zoom:33%;" />
 
 ### 六、训练及测试结果
 
@@ -78,4 +78,5 @@ PyTorch框架，LSTM（长短时记忆网络）作为Backbone；数据按9：1�
 
 #### 团队成员：张智、刘子瑜、王剑锋
 
-##### 联系方式：![](https://github.com/LKCN/TouristEstimation/tree/master/img/lianxi.png)
+##### 联系方式：
+(https://github.com/LKCN/TouristEstimation/tree/master/img/lianxi.png)
